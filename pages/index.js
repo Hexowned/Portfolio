@@ -2,13 +2,9 @@ import { Container, Link, Icon, List, ListItem, Box, Heading, useColorModeValue,
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import Image from 'next/image'
-import Paragraph from "../components/paragraph"
 import Section from '../components/section'
 import Layout from "../components/layouts/article"
-import { BioSection, BioYear } from "../components/bio"
-import { GridItem } from "../components/grid-item"
 import {
-    IoLogoTwitter,
     IoLogoInstagram,
     IoLogoDiscord,
     IoLogoGithub,
@@ -67,7 +63,7 @@ const Home = () => {
                     <Heading as="h3" variant="section-title">
                         Projects
                     </Heading>
-                    <Paragraph>
+                    <p>
                         I am a beginner programmer starting my career in
                         Cyber Security this coming summer. Here is an example
                         of what i've been working on to prepare for this endevour-{">"}{' '}
@@ -75,7 +71,7 @@ const Home = () => {
                             <Link>Example</Link>
                         </NextLink>
                         .
-                    </Paragraph>
+                    </p>
                     <Box align="center" my={4}>
                         <NextLink href="/projects" scroll={false}>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -89,15 +85,15 @@ const Home = () => {
                     <Heading as="h3" variant="section-title">
                         Bio
                     </Heading>
-                    <BioSection>
-                        <BioYear>2019</BioYear>
+                    <Box>
+                        <span>2019</span>
                         - Discovered my true love and aspirations for programming
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2022</BioYear>
+                    </Box>
+                    <Box>
+                        <span>2022</span>
                         - Started Bachelors Program at Colorado Technical University
                         - Majoring in Computer Science focusing on Cyber Security
-                    </BioSection>
+                    </Box>
                 </Section>
 
                 <Section delay={0.3}>
