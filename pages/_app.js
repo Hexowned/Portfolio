@@ -1,5 +1,5 @@
 import theme from '../libs/theme'
-import Fonts from '../components/fonts'
+import Font from '../components/font'
 import Layout from '../components/layouts/main'
 import { ChakraProvider } from '@chakra-ui/provider'
 import { AnimatePresence } from 'framer-motion'
@@ -7,7 +7,7 @@ import { AnimatePresence } from 'framer-motion'
 const Website = ({ Component, pageProps, router }) => {
     return (
         <ChakraProvider theme={theme}>
-            <Fonts/>
+            <Font/>
             <Layout router={router}>
                 <AnimatePresence exitBeforeEnter initial={true}>
                     <Component {...pageProps} key={router.route}/>
