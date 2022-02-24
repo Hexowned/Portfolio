@@ -66,37 +66,18 @@ const Home = () => {
                     <p>
                         I am a beginner programmer starting my career in
                         Cyber Security this coming summer. Here is an example
-                        of what i've been working on to prepare for this endevour-{">"}{' '}
-                        <NextLink href="/projects/example">
-                            <Link>Example</Link>
-                        </NextLink>
-                        .
+                        of what i've been working on to prepare for this endevour.
                     </p>
-                    <Box align="center" my={4}>
-                        <NextLink href="/projects" scroll={false}>
+                    <Box align="center" my={2}>
+                        <NextLink href="https://github.com/Nexowned" scroll={false}>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                                My Portfolio
+                                My Projects
                             </Button>
                         </NextLink>
                     </Box>
                 </Section>
 
                 <Section delay={0.2}>
-                    <Heading as="h3" variant="section-title">
-                        Bio
-                    </Heading>
-                    <Box>
-                        <span>2019</span>
-                        - Discovered my true love and aspirations for programming
-                    </Box>
-                    <Box>
-                        <span>2022</span>
-                        - Started Bachelors Program at Colorado Technical University
-                        - Majoring in Computer Science focusing on Cyber Security
-                    </Box>
-                </Section>
-
-                <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
                         Social Media
                     </Heading>
