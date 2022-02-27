@@ -69,7 +69,7 @@ const Home = () => {
                         of what i've been working on to prepare for this endevour.
                     </p>
                     <Box align="center" my={2}>
-                        <NextLink href="https://github.com/Nexowned" scroll={false}>
+                        <NextLink href="https://github.com/Hexowned" scroll={false}>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                                 My Projects
                             </Button>
