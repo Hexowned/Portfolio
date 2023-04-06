@@ -20,7 +20,7 @@ const Home = () => {
         <Layout>
             <Container>
                 <Box borderRadius="full" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                    I&apos;m an aspiring developer located in Denver Colorado!
+                    I&apos;m an aspiring developer located in North Carolina!
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
